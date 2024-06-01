@@ -1,0 +1,137 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.usersplash {
+    position: absolute;
+    top: 250px;
+    left: 160px;
+    z-index: -1;
+}
+
+.userstar {
+    position: absolute;
+    top: 780px;
+    left: 50px;
+}
+
+.intest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testtop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimo {
+    font-family: "Clash Display Semibold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+}
+
+.users {
+    text-align: center;
+    width: 30%;
+    font-family: "Clash Display bold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.testdetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.testleft {
+    display: flex;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.testleft img {
+    width: 100%;
+}
+
+.testright {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.testhead {
+    font-family: "Clash Display Semibold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.testpara {
+    width: 90%;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.testimg {
+    margin: 20px 0px;
+}
+
+.nick {
+    font-family: "Clash Display Semibold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 992px) {
+    .testdetail {
+        flex-direction: column;
+    }
+
+    .usersplash {
+        display: none;
+    }
+
+    .testimonial {
+        margin-top: 60px;
+    }
+
+    .testimo {
+        margin-bottom: 10px;
+    }
+
+    .users {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .testleft,
+    .testright {
+        width: 100%;
+    }
+
+    .testright {
+        align-items: center;
+    }
+
+    .testhead {
+        width: 100%;
+        text-align: center;
+    }
+}

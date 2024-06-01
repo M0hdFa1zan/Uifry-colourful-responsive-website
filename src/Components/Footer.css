@@ -1,0 +1,113 @@
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.infoot {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.foottop {
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: space-between;
+
+
+}
+
+.footlogo {
+    margin-bottom: 15px;
+}
+
+.helpdesk,
+.phoneno {
+    display: flex;
+    align-items: center;
+}
+
+.helpdesk {
+    margin-bottom: 5px;
+}
+
+.minilogo,
+.logodetail {
+    display: flex;
+    margin-right: 10px;
+}
+
+.foothead {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.foottabs {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+
+.butinp input {
+    width: 83px;
+    height: 26px;
+    border: none;
+    margin-left: 25px;
+}
+
+.butinp button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 17px 41px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+
+.footbottom {
+    margin-top: 60px;
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid linear-gradient(90deg, rgba(22, 22, 22, 0) 0%, #696969 51.56%, rgba(22, 22, 22, 0) 100%);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .infoot {
+        width: 100%;
+    }
+
+    .foottop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footone,
+    .foottwo,
+    .footthree,
+    .footfour,
+    .footfive {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footfive {
+        margin-bottom: 0px;
+    }
+
+    .helpdesk,
+    .phoneno {
+        justify-content: center;
+    }
+}

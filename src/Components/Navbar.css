@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: transparent;
+}
+
+.innav {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandlogo {
+    width: 8%;
+}
+
+.brandlogo img {
+    width: 100%;
+}
+
+.navtabs {
+    display: flex;
+    width: 68%;
+}
+
+.innavtabs {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.home {
+    color: #FF5555;
+}
+
+.navbutton button {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 48px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .brandlogo {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .innav {
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navtabs {
+        width: 100%;
+    }
+
+    .innavtabs {
+        display: flex;
+        justify-content: left;
+        gap: 15px;
+        width: 100%;
+    }
+
+
+    .navbutton {
+        display: none;
+    }
+
+}

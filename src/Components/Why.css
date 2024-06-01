@@ -1,0 +1,195 @@
+.why {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.whystar {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
+
+.onhold {
+    position: absolute;
+    right: 205px;
+    top: 265px;
+}
+
+.whysplash {
+    position: absolute;
+    z-index: -1;
+    top: 170px;
+    right: 250px;
+}
+
+.inwhy {
+    display: flex;
+    width: 80%;
+    /* background-color: orange; */
+    align-items: center;
+}
+
+.whyleft {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* background-color: red; */
+}
+
+.advantages {
+    color: #FF5555;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+}
+
+.whyhead {
+    font-family: "Clash Display Bold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 10px 0px;
+}
+
+.whydetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.subwhy {
+    display: flex;
+    margin: 25px 0px;
+
+}
+
+.bellimg {
+    display: flex;
+    width: 48px;
+    margin-right: 10px;
+}
+
+.bellimg img {
+    width: 100%;
+}
+
+.clever {
+    font-family: "Clash Display SemiBold";
+    position: relative;
+    top: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.whypara {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.5;
+}
+
+.whyright {
+    display: flex;
+    width: 60%;
+}
+
+.whyimg {
+    display: flex;
+}
+
+.whyimg img {
+    width: 100%;
+}
+
+.infully {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.fullysplash {
+    position: absolute;
+    top: 750px;
+    left: 180px;
+    z-index: -1;
+}
+
+.visa {
+    position: absolute;
+    left: 320px;
+    top: 848px;
+}
+
+.visastar {
+    position: absolute;
+    left: 680px;
+    top: 650px;
+}
+
+.visastar2 {
+    position: absolute;
+    top: 1250px;
+    right: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+    .inwhy {
+        width: 95%;
+        flex-direction: column;
+    }
+    
+    .fullysplash {
+        display: none;
+    }
+
+    .visastar {
+        display: none;
+    }
+
+    .whydetail {
+        align-items: center;
+    }
+
+    .whyleft {
+        width: 100%;
+        align-items: center;
+    }
+
+    .advantages {
+        margin-top: 70px;
+    }
+
+    .whyhead {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .subwhy {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .whypara {
+        width: 100%;
+        text-align: center;
+    }
+
+    .whyright {
+        width: 100%;
+    }
+
+    .visa,
+    .onhold {
+        display: none;
+    }
+
+    .infully {
+        flex-direction: column;
+    }
+}

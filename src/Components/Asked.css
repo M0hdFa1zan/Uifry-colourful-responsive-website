@@ -1,0 +1,106 @@
+.asked {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+.askstar {
+    position: absolute;
+    top: 70px;
+    right: 640px;
+}
+
+.inasked {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.faq {
+    color: #FF5555;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    margin-bottom: 5px;
+}
+
+.fullfaq {
+    width: 40%;
+    font-family: "Clash Display Bold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.faqtiles {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.faq1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.pink,
+.white {
+    padding: 20px 30px;
+}
+
+.pink {
+    color: white;
+    background-color: #FF5555;
+    border-radius: 8px;
+}
+
+.grey {
+    opacity: 0.5;
+}
+
+.tilehead {
+    width: 80%;
+    font-family: "Clash Display Semibold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tilepara {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justified;
+    word-spacing: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .inasked {
+        width: 95%;
+    }
+
+    .faq1 {
+        flex-direction: column;
+    }
+
+    .three {
+        background-color: #FF5555;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .four {
+        background-color: white;
+        color: black;
+    }
+
+}

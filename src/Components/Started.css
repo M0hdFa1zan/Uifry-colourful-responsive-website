@@ -1,0 +1,143 @@
+.started {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.headstar1 {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.headstar2 {
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+
+.startstar {
+    position: absolute;
+    top: 170px;
+    right: 600px;
+}
+
+.startstar2 {
+    position: absolute;
+    top: 480px;
+    right: 870px;
+}
+
+.startstar3 {
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+
+.startstar4 {
+    position: absolute;
+    right: 40px;
+    top: 70px;
+}
+
+.startsplash {
+    position: absolute;
+    z-index: -1;
+    left: -90px;
+    top: -40px;
+}
+
+.instart {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+    background-color: black;
+    background-image: url(../Components/bottomleft.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.startleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+.starthead {
+    font-family: "Clash Display Semibold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.startpara {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.startbutton {
+    display: flex;
+}
+
+.startbutton button {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border: none;
+    border-radius: 4px;
+}
+
+.startbutton img {
+    margin-left: 15px;
+    position: relative;
+    bottom: 3px;
+}
+
+.startright {
+
+    background-image: url("../Components/topright.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.startimg img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .started {
+        margin-top: 0px;
+    }
+
+    .instart {
+        margin-top: 50px;
+        width: 95%;
+        border-radius: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .startleft {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+        margin: 50px 0px 30px 0px;
+    }
+
+    .startsplash {
+        display: none;
+    }
+}

@@ -1,0 +1,132 @@
+.premium {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.prestar {
+    position: absolute;
+    left: 50px;
+    top: 140px;
+}
+
+.splash3 {
+    position: absolute;
+    left: 30px;
+    z-index: -1;
+}
+
+.halfsplash {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+.inpre {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.preimg {
+    display: flex;
+    width: 55%;
+}
+
+.preimg img {
+    width: 100%;
+}
+
+.predetails {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.features {
+    color: #FF5555;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-align: left;
+}
+
+.prehead {
+    font-family: "Clash Display Bold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 10px 0px;
+}
+
+.predetail {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.detailimg {
+    display: flex;
+    height: 40px;
+    align-items: flex-start;
+}
+
+.detailimg img {
+    width: 100%;
+    position: relative;
+    top: 3px;
+}
+
+.subheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detailimg {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.budget {
+    font-family: "Clash Display SemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.prepara {
+    opacity: 0.5;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 992px) {
+    .inpre {
+        flex-direction: column;
+    }
+
+    .preimg,
+    .predetails {
+        width: 100%;
+    }
+
+    .detailimg {
+        width: 15%;
+    }
+
+    .features,
+    .prehead {
+        text-align: center;
+    }
+
+    .splash3 {
+        display: none;
+    }
+}
