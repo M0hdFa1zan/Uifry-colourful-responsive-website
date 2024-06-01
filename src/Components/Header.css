@@ -7,14 +7,14 @@
 
 .splash {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     left: 210px;
     top: 40px;
 }
 
 .splash2 {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     right: 40px;
     top: 130px;
 }
@@ -31,6 +31,7 @@
 
 .headerleft {
     display: flex;
+    z-index: 2;
     width: 50%;
     flex-direction: column;
 }

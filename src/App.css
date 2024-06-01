@@ -3,6 +3,27 @@
   font-family: "Clash Display";
 }
 
+.night-mode {
+  background-color: #333;
+  color: #fff;
+  transition: .8s;
+}
+
+#nightmode-btn {
+  color: #fff;
+  background-color: #000;
+  padding: 4px 10px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.nightmode {
+  font-family: "Clash Display Semibold";
+}
+
 
 @font-face {
   font-family: "Clash Display";
