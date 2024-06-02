@@ -13,7 +13,7 @@ function Started() {
                 <div className='startleft'>
                     <div className='starthead'>Ready To Get Started?</div>
                     <div className='startpara'>Risus habitant leo egestas mauris diam eget morbi tempus vulputate.</div>
-                    <div className='startbutton'><button>Download App<img src='../Assets/images/apple.png' /></button></div>
+                    <div className='startbutton'><button>Download App<img src='../Assets/Images/apple.png' /></button></div>
                 </div>
                 <div className='startright'>
                     <div className='startimg'><img src='../Assets/Images/iphone13.png' /></div>
