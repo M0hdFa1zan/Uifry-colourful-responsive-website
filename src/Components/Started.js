@@ -16,7 +16,7 @@ function Started() {
                     <div className='startbutton'><button>Download App<img src='../Assets/images/apple.png' /></button></div>
                 </div>
                 <div className='startright'>
-                    <div className='startimg'><img src='../Assets/images/iphone13.png' /></div>
+                    <div className='startimg'><img src='../Assets/Images/iphone13.png' /></div>
                 </div>
             </div>
         </div>
