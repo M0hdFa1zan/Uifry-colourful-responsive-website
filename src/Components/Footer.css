@@ -9,15 +9,11 @@
     display: flex;
     width: 80%;
     flex-direction: column;
-    /* background-color: orange; */
 }
 
 .foottop {
     display: flex;
-    /* background-color: rebeccapurple; */
     justify-content: space-between;
-
-
 }
 
 .footlogo {
@@ -54,12 +50,24 @@
     margin-bottom: 10px;
 }
 
+.foottabs:hover {
+    color: #FF5555;
+    cursor: pointer;
+}
+
+.butinp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .butinp input {
-    width: 83px;
+    padding: 5px;
+    width: 140px;
     height: 26px;
     border: none;
-    margin-left: 25px;
+    outline: 1px solid black;
+    margin-left: 5px;
 }
 
 .butinp button {
@@ -71,7 +79,13 @@
     padding: 17px 41px;
     border: none;
     border-radius: 4px;
-    margin-left: 50px;
+}
+
+.butinp button:hover {
+    background-color: transparent;
+    color: black;
+    outline: 1px solid black;
+    transition: .3s;
 }
 
 .footbottom {
@@ -104,6 +118,15 @@
 
     .footfive {
         margin-bottom: 0px;
+    }
+
+    .butinp {
+        flex-direction: column;
+    }
+
+    .butinp input {
+        width: 300px;
+        margin-left: 0;
     }
 
     .helpdesk,
