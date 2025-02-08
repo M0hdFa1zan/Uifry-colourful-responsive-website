@@ -38,7 +38,6 @@
 .faqtiles {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .faq1 {
@@ -46,6 +45,30 @@
     gap: 20px;
     width: 100%;
     margin-bottom: 30px;
+}
+
+.faq1:hover {
+
+    .pink {
+        transition: .5s;
+        color: black;
+        background-color: #fff;
+
+        .tilepara {
+            opacity: .5;
+        }
+    }
+
+    .white {
+        transition: .5s;
+        color: white;
+        background-color: #FF5555;
+        border-radius: 8px;
+
+        .tilepara {
+            opacity: 1;
+        }
+    }
 }
 
 .pink,
