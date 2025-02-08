@@ -20,8 +20,16 @@
   cursor: pointer;
 }
 
+#nightmode-btn:hover {
+  background-color: transparent;
+  color: black;
+  outline: 1px solid black;
+  transition: .3s;
+}
+
 .nightmode {
   font-family: "Clash Display Semibold";
+  z-index: 100;
 }
 
 
