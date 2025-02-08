@@ -4,6 +4,7 @@
     justify-content: center;
     padding: 40px 0px;
     background-color: transparent;
+    z-index: 2;
 }
 
 .innav {
@@ -33,6 +34,12 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
+    z-index: 2;
+}
+
+.innavtabs div:hover {
+    color: #FF5555;
+    cursor: pointer;
 }
 
 .home {
@@ -48,6 +55,13 @@
     border: none;
     border-radius: 4px;
     padding: 16px 48px;
+}
+
+.navbutton button:hover {
+    background-color: transparent;
+    color: black;
+    outline: 1px solid black;
+    transition: .3s;
 }
 
 @media only screen and (max-width: 992px) {
